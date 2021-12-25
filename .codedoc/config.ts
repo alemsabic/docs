@@ -20,7 +20,7 @@ export const config = /*#__PURE__*/configuration({
   },
   page: {
     title: {
-      base: 'Codedoc',
+      base: '',
     },
     favicon: '/favicon.ico',
     meta: {
