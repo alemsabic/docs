@@ -22,6 +22,7 @@ npm i -g @codedoc/cli             # --> click on each line to copy it
 
 # Usage
 
+Samo testiranje, nista vise.
 Assume you have a repo on github named `my-project` and want to write documentations for it
 using codedoc. Install the codedoc cli, clone your repo locally, then:
 
