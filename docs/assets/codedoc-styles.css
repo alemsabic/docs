@@ -1281,52 +1281,104 @@ body.dark code {
     bottom: -4px;
     height: 8px;
   }
-  .footnotes-0-0-19>div {
+  .card-0-0-19 {
+    cursor: pointer;
+    margin: 16px;
+    display: inline-block;
+    padding: 8px;
+    overflow: hidden;
+    max-width: 320px;
+    transition: box-shadow .3s, transform .3s;
+    border-radius: 8px;
+    vertical-align: middle;
+  }
+  .card-0-0-19.raised-0 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12);
+  }
+  .card-0-0-19.raised-1 {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .18);
+  }
+  .card-0-0-19.raised-2 {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .25);
+  }
+  .card-0-0-19:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .25);
+  }
+  .card-0-0-19 img {
+    width: calc(100% + 16px);
+    margin: -8px;
+    max-width: none;
+    margin-top: -24px;
+  }
+  .card-0-0-19 strong {
+    color: #000000;
+    display: block;
+    font-size: 18px;
+  }
+  body.dark .card-0-0-19 strong {
+    color: #ffffff;
+  }
+  .tag-0-0-20 {
+    color: white;
+    height: 16px;
+    display: inline-flex;
+    padding: 8px;
+    background: #000000;
+    align-items: center;
+    border-radius: 16px;
+    vertical-align: middle;
+  }
+  body.dark .tag-0-0-20 {
+    color: black;
+    background: #ffffff;
+  }
+  .footnotes-0-0-21>div {
     display: flex;
   }
-  .footnotes-0-0-19>div>span {
+  .footnotes-0-0-21>div>span {
     font-weight: bold;
     margin-right: 16px;
   }
-  .footnotes-0-0-19>div>marker>p {
+  .footnotes-0-0-21>div>marker>p {
     margin: 0;
   }
-  .formula-0-0-20 {
+  .formula-0-0-22 {
     color: #757575;
     padding: 16px;
     background: #eeeeee;
     border-radius: 3px;
   }
-  body.dark .formula-0-0-20 {
+  body.dark .formula-0-0-22 {
     color: #cacaca;
     background: #282828;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .formula-0-0-20 {
+  body:not(.dark-mode-animate) .formula-0-0-22 {
     color: #cacaca;
     background: #282828;
   }
 }
-  body.dark-mode-animate .formula-0-0-20 {
+  body.dark-mode-animate .formula-0-0-22 {
     transition: background .3s, color .3s;
   }
-  .formula-0-0-20.big {
+  .formula-0-0-22.big {
     font-size: 32px;
   }
-  .formula-0-0-20.center > div {
+  .formula-0-0-22.center > div {
     text-align: center;
   }
-  .line-0-0-21 {
+  .line-0-0-23 {
     cursor: pointer;
     padding: 16px 32px;
     overflow: auto;
     position: relative;
     border-radius: 3px;
   }
-  .line-0-0-21:hover {
+  .line-0-0-23:hover {
     background: #e8e8e8;
   }
-  .line-0-0-21 .counter {
+  .line-0-0-23 .counter {
     top: 0;
     left: 8px;
     width: 32px;
@@ -1338,68 +1390,16 @@ body.dark code {
     text-align: left;
     align-items: center;
   }
-  body.dark .line-0-0-21:hover {
+  body.dark .line-0-0-23:hover {
     background: #323232;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .line-0-0-21:hover {
+  body:not(.dark-mode-animate) .line-0-0-23:hover {
     background: #323232;
   }
 }
-  body.dark-mode-animate .line-0-0-21:hover {
+  body.dark-mode-animate .line-0-0-23:hover {
     transition: background .3s;
-  }
-  .card-0-0-22 {
-    cursor: pointer;
-    margin: 16px;
-    display: inline-block;
-    padding: 8px;
-    overflow: hidden;
-    max-width: 320px;
-    transition: box-shadow .3s, transform .3s;
-    border-radius: 8px;
-    vertical-align: middle;
-  }
-  .card-0-0-22.raised-0 {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .12);
-  }
-  .card-0-0-22.raised-1 {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .18);
-  }
-  .card-0-0-22.raised-2 {
-    box-shadow: 0 6px 18px rgba(0, 0, 0, .25);
-  }
-  .card-0-0-22:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, .25);
-  }
-  .card-0-0-22 img {
-    width: calc(100% + 16px);
-    margin: -8px;
-    max-width: none;
-    margin-top: -24px;
-  }
-  .card-0-0-22 strong {
-    color: #000000;
-    display: block;
-    font-size: 18px;
-  }
-  body.dark .card-0-0-22 strong {
-    color: #ffffff;
-  }
-  .tag-0-0-23 {
-    color: white;
-    height: 16px;
-    display: inline-flex;
-    padding: 8px;
-    background: #000000;
-    align-items: center;
-    border-radius: 16px;
-    vertical-align: middle;
-  }
-  body.dark .tag-0-0-23 {
-    color: black;
-    background: #ffffff;
   }
   .watermark-0-0-24 {
     color: #424242;
