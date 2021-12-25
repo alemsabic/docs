@@ -17,6 +17,8 @@ export const config = /*#__PURE__*/configuration({
   dest: {
     html: 'dist',
     assets: 'dist',
+    bundle: 'assets',               // --> where to store codedoc's bundle (relative to `assets`)
+    styles: 'assets',               // --> where to store codedoc's styles (relative to `assets`)
   },
   page: {
     title: {
