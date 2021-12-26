@@ -11,9 +11,9 @@
       "hash": "sIcXdiZbmFFWtPt4+wiZFw=="
     },
     {
-      "name": "zoomOnFormula",
-      "filename": "/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/formula/zoom-on-formula.js",
-      "hash": "ieHiCHt9HtYVgl1fDkKgxw=="
+      "name": "countCards",
+      "filename": "/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/count-cards.js",
+      "hash": "/fCgqwP2OH5XOgMH9ko11A=="
     },
     {
       "name": "codeSelection",
@@ -96,11 +96,6 @@
       "name": "ToCToggle",
       "filename": "/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
       "hash": "ImhB47txCQ0DSQNMAg4ZBw=="
-    },
-    {
-      "name": "GitterToggle",
-      "filename": "/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/gitter/index.js",
-      "hash": "Dp1O8v0236X9cfL1GiZiuw=="
     },
     {
       "name": "DarkModeSwitch",
