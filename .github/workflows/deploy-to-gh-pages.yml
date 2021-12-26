@@ -19,6 +19,7 @@ jobs:
           # build repo
           (PATH=$(npm bin):$PATH && codedoc build)
           # copy images to dist
+          cp -r images/ dist/images/
           cp favicon.ico dist/
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
