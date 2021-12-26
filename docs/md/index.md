@@ -1,11 +1,9 @@
-> :DarkLight
-> > :InLight
-> >
-> > ![header](/repo-banner.svg)
->
-> > :InDark
-> >
-> > ![header](/repo-banner-dark.svg)
+
+> :Hero src=/images/alems-white.svg,
+>       mode=light
+
+> :Hero src=/images/alems.svg,
+>       mode=dark
 
 
 

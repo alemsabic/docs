@@ -3,5 +3,5 @@ import { Footer as _Footer, GitterToggle$, Watermark} from '@codedoc/core/compon
 
 
 export function Footer(config: CodedocConfig, renderer: any) {
-  return <_Footer>About<hr/>Contact</_Footer>;
+  return <_Footer><a class="" href={`/`}>About</a><hr/><a class="" href={`/`}>Contact</a></_Footer>;
 }
