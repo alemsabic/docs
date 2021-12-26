@@ -195,4 +195,14 @@ Codedoc is an open-source tool, completely free-to-use, MIT-licensed,
 no strings attached. I simply needed this tool to write usable docs for some
 open-source projects I was working on.
 
+
 > :ToCPrevNext
+
+> :DarkLight
+> > :InLight
+> >
+> > > :Utterances theme=github-light
+>
+> > :InDark
+> >
+> > > :Utterances theme=github-dark

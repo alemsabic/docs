@@ -1,15 +1,12 @@
 
 import { configuration,
         DefaultMarkdownCustomComponents,
-        DefaultMarkdownCustomInlineComponents,
-        Build,
-        CodedocConfig,
 } from '@codedoc/core';
-import { formulaPlugin } from '@codedoc/core/components';
 
 import { theme } from './theme';
+import { Utterances } from './components/utterances';
 import { Card } from './components/card';
-import { Tag } from './components/tag';
+import { codingBlog } from '@codedoc/coding-blog-plugin';  // --> import the plugin
 
 
 export const config = /*#__PURE__*/configuration({
@@ -20,45 +17,42 @@ export const config = /*#__PURE__*/configuration({
   },
   page: {
     title: {
-      base: '',
+      base: 'Alem Šabić',
     },
     favicon: '/favicon.ico',
     meta: {
-      subject: 'Beautiful and Modern Software Documentation',
-      description: 'An open-source tool to help you easily create best-in-class software documentation for your projects',
+      subject: 'Darum gehts.',
+      description: 'Hier gehts um viele Dinge.',
       keywords: [
-        'documentation',
-        'docs',
-        'software',
-        'code',
-        'open-source',
-        'open source',
-        'codedoc',
-        'document',
-        'elegant',
-        'beautiful',
-        'modern',
-      ]
-    }
+        'das',
+        'dies',
+        'das',
+        'dies',
+        'und das',
+        'und dies',
+      ],
+      themeColor: '#222',             
+      appleMobileWebStatusBarStyle: 'black-translucent',
+    },
   },
   misc: {
     github: {
       user: 'alemsabic',
       repo: 'codedoc-docs',
+      action: 'Issue',            
+      count: true,                
+      standardIcon: true,
     },
     gitter: {
       room: 'connectv/codedoc'
     }
   },
-  plugins: [formulaPlugin],
+  plugins: [codingBlog()],
   markdown: {
     customComponents: {
       ...DefaultMarkdownCustomComponents,
       Card,
-    },
-    customInlineComponents: {
-      ...DefaultMarkdownCustomInlineComponents,
-      Tag,
+      Utterances,
     }
   }
 });

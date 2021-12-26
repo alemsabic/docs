@@ -40,11 +40,9 @@ export function Header(config: CodedocConfig, renderer: any) {
           }
         }
       `}</style>
-      <a href="https://connect-platform.com" target="_blank" class="header-copyright-notice">
-        MIT License<br/>
-        Copyright © 2020<br/>
-        CONNECT-platform<br/>
-        <img src="https://avatars3.githubusercontent.com/u/42326118?s=200&v=4"/>
+      <a href="https://twitter.com/Sarajevo" target="_blank" class="header-copyright-notice">
+        Twitter<br/>
+        @Sarajevo<br/>
       </a>
     </_Header>
   )
