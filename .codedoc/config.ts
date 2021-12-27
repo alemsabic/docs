@@ -43,9 +43,6 @@ export const config = /*#__PURE__*/configuration({
       count: true,                
       standardIcon: true,
     },
-    gitter: {
-      room: 'connectv/codedoc'
-    }
   },
   plugins: [codingBlog()],
   markdown: {

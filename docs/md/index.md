@@ -1,9 +1,4 @@
 
-> :Hero src=/images/alems-white.svg,
->       mode=light
-
-> :Hero src=/images/alems.svg,
->       mode=dark
 
 
 

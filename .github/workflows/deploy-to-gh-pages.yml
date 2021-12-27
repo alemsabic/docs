@@ -21,6 +21,8 @@ jobs:
           # copy images to dist
           cp -r images/ dist/images/
           cp favicon.ico dist/
+          # mark no jekyll
+          touch dist/.nojekyll
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:

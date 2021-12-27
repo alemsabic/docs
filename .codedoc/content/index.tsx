@@ -23,7 +23,7 @@ export function content(_content: HTMLElement, toc: HTMLElement, renderer: Rende
             <ToC search={
                   config.misc?.github ? 
                   <GithubSearch$
-                    repo="codedoc-docs" 
+                    repo={config.misc.github.repo} 
                     user={config.misc.github.user}
                     root={config.src.base}
                     pick={config.src.pick.source}
@@ -31,6 +31,33 @@ export function content(_content: HTMLElement, toc: HTMLElement, renderer: Rende
                   /> : false
             }>{toc}</ToC>
           }>
+<style>
+{`
+
+@media only screen and (min-width: 768px) {
+  body, input, button {
+    font-size:20px;
+}
+h1 {
+  line-height:1.3;
+  font-size: 3em;
+}
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+  z-index: 100;
+}
+
+`}
+</style>
+
       {_content}
       <ContentNav content={_content}/>
     </Page>
