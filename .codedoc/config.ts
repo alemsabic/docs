@@ -34,6 +34,15 @@ export const config = /*#__PURE__*/configuration({
       themeColor: '#222',             
       appleMobileWebStatusBarStyle: 'black-translucent',
     },
+    fonts: {                             // --> font settings
+      text: {                            // --> font used for texts
+        url:                             // --> URL of font used for texts
+          'https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap',
+        name: 'Roboto Mono',                    // --> name of font used for texts
+        fallback: 
+        `'Courier New', Courier, monospace`           // --> the fallback font for texts
+      },
+    }, 
   },
   misc: {
     github: {
