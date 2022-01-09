@@ -88,11 +88,6 @@
       "hash": "xvMl3/BzEiLLpbeHg4MJIw=="
     },
     {
-      "name": "GithubSearch",
-      "filename": "/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js",
-      "hash": "9j5oOgx2Q3P6F5cKZT+bFQ=="
-    },
-    {
       "name": "ToCToggle",
       "filename": "/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
       "hash": "ImhB47txCQ0DSQNMAg4ZBw=="
@@ -108,14 +103,14 @@
       "hash": "BE2VSed0IQfDIfXpZUshfA=="
     },
     {
-      "name": "TabSelector",
-      "filename": "/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js",
-      "hash": "WYHVSHXUz4Ll98v5oPmSng=="
-    },
-    {
       "name": "ToCPrevNext",
       "filename": "/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
       "hash": "xCBcG0xnbau+cXDs8aAZEg=="
+    },
+    {
+      "name": "TabSelector",
+      "filename": "/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js",
+      "hash": "WYHVSHXUz4Ll98v5oPmSng=="
     }
   ],
   "renderer": {

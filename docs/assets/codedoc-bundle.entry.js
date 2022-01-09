@@ -16,21 +16,19 @@ import { postNavSearch } from '/home/runner/work/codedoc-docs/codedoc-docs/.code
 import { copyLineLinks } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js';copyLineLinks();
 import { gatherFootnotes } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js';gatherFootnotes();
 import { CollapseControl } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js';
-import { GithubSearch } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js';
 import { ToCToggle } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
-import { TabSelector } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js';
 import { ToCPrevNext } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
+import { TabSelector } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js';
 
 const components = {
   'xvMl3/BzEiLLpbeHg4MJIw==': CollapseControl,
-  '9j5oOgx2Q3P6F5cKZT+bFQ==': GithubSearch,
   'ImhB47txCQ0DSQNMAg4ZBw==': ToCToggle,
   '2QjAvZcwowE7/w7gzBp58A==': DarkModeSwitch,
   'BE2VSed0IQfDIfXpZUshfA==': ConfigTransport,
-  'WYHVSHXUz4Ll98v5oPmSng==': TabSelector,
-  'xCBcG0xnbau+cXDs8aAZEg==': ToCPrevNext
+  'xCBcG0xnbau+cXDs8aAZEg==': ToCPrevNext,
+  'WYHVSHXUz4Ll98v5oPmSng==': TabSelector
 };
 
 const renderer = getRenderer();
