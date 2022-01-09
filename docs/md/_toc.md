@@ -45,3 +45,11 @@
 > [Recipe: ToC State](/docs/customization/recipe_toc_state)
 > [Recipe: Hamburger Menu](/docs/customization/recipe_hamburger_on_top)
 > [Recipe: Custom Search API](/docs/customization/recipe_custom_search_api)
+
+---
+
+[About](/docs/cli)
+
+---
+
+[Newsletter](/docs/cli)

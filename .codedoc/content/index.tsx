@@ -34,13 +34,29 @@ export function content(_content: HTMLElement, toc: HTMLElement, renderer: Rende
 <style>
 {`
 
+
+
+h1 {
+  line-height:1.3;
+  font-size: 2.75em;
+  margin-top: 5em;
+  text-transform: uppercase;
+  letter-spacing: 0.75em;
+  overflow-wrap: break-word;
+}
+
+h2, h3 {
+  line-height:1.3;
+  margin-top: 2.5em;
+}
+
+#-codedoc-container p {
+  line-height:1.7;
+}
+
 @media only screen and (min-width: 768px) {
   body, input, button {
     font-size:20px;
-}
-h1 {
-  line-height:1.3;
-  font-size: 3em;
 }
 }
 
@@ -54,6 +70,17 @@ body::before {
   box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
   z-index: 100;
 }
+
+.content-0-0-8 { 
+  /* this will hide the scrollbar in mozilla based browsers */
+  overflow: -moz-scrollbars-none;
+  /* this will hide the scrollbar in internet explorers */
+  -ms-overflow-style: none;
+  }
+  .content-0-0-8::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none; 
+  }
 
 `}
 </style>

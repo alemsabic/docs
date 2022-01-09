@@ -45,13 +45,7 @@ export const config = /*#__PURE__*/configuration({
     }, 
   },
   misc: {
-    github: {
-      user: 'alemsabic',
-      repo: 'codedoc-docs',
-      action: 'Issue',            
-      count: true,                
-      standardIcon: true,
-    },
+    
   },
   plugins: [codingBlog()],
   markdown: {
