@@ -1,86 +1,13 @@
 # Page-Specific Meta
 
-The `MetaOverride` component allows you to override some of the meta information
-of a specific page (as opposed to the whole project):
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam purus neque, condimentum eget purus vel, pretium dignissim dolor. Sed quis suscipit nunc. Integer gravida accumsan nulla, ut accumsan quam. Proin vel nisi in libero dapibus suscipit quis in metus. Suspendisse sed tempus sapien. Sed ut augue non ante egestas consectetur. Maecenas sit amet tellus non dolor porta suscipit sit amet a velit. Nullam auctor dignissim arcu ac egestas. Etiam vitae ligula laoreet, aliquam lorem sed, sollicitudin leo. Etiam quis fringilla mi. Donec faucibus urna in magna maximus, et maximus lacus aliquam. Maecenas ullamcorper in leo sit amet lobortis. Nullam tincidunt aliquet bibendum. Ut finibus, felis eget faucibus convallis, dui lectus facilisis lorem, vel tincidunt diam sapien mollis ex. Pellentesque nec nulla erat.
 
-```md
-> :MetaOverride target=description
->
-> Some specific description for this particular page.
+Sed lobortis, nunc ac consectetur convallis, nisi libero vulputate tortor, in gravida erat odio vitae leo. Etiam auctor sem id odio ultrices tempor. Sed sagittis porttitor sagittis. Donec eget bibendum tellus, non facilisis nulla. Nunc at pretium turpis. Vivamus pretium pharetra ante in ultricies. Vestibulum suscipit nisi id augue dictum, a tempus elit pharetra.
 
-> :MetaOverride target=keywords, behavior=extend
->
-> additional, keywords, for this page
-```
+Donec ultrices lobortis sapien, nec elementum diam sagittis a. Maecenas quis velit consectetur, sodales tellus non, auctor ante. Phasellus a consectetur ante. Vivamus nisl nunc, lacinia id fringilla ut, interdum nec orci. Sed eu tellus placerat est pretium posuere at sed neque. Sed gravida pretium lacus, non cursus augue mollis sodales. Nulla facilisi. Fusce dapibus est vel tortor semper facilisis. Proin pulvinar vel mi non facilisis. Phasellus nec consectetur augue. Quisque ultricies ligula non odio mattis ultrices. Aliquam erat volutpat. Praesent sodales ex id enim facilisis posuere. Praesent tincidunt velit mauris. Maecenas non lorem efficitur, semper mauris at, imperdiet ex.
 
----
+Nam dictum tellus et lacus congue, non elementum sem hendrerit. In efficitur diam at purus ornare, non tincidunt orci dictum. Vivamus tincidunt, ex a imperdiet elementum, velit libero mattis nulla, at vehicula lorem tellus ac sapien. Praesent felis diam, finibus a ex in, dictum tristique sem. Quisque egestas placerat semper. Fusce cursus cursus convallis. Aenean a suscipit magna. Vivamus convallis elementum ante, id posuere metus fermentum nec. Cras semper nulla id nulla tincidunt facilisis. Praesent sed ornare justo. Ut pellentesque nisi in mattis volutpat.
 
-## Overridable Meta Tags
-
-You can specify which meta tag you want to override via `target`
-attribute. The following values are supported for this attribute:
-
-- `subject`: the subject of the content of the page.
-
-- `description`: the description of the content of the page.
-
-- `keywords`: the keywords attributed to content of the page, specifically useful for SEO optimization.
-  content must be a comma separated list of keywords.
-
-- `canonical`: the [canonical link](https://en.wikipedia.org/wiki/Canonical_link_element) of the page.
-
----
-
-## Extending Global Meta
-
-In some cases you might want to extend the global meta set for your doc pages
-via some other configuration (e.g. `.codedoc/config.ts`). For example, you might
-want to have your global keywords set on each page and then defined some page-specific
-keywords for a specific page.
-
-For such cases, you can use the `behavior` attribute:
-
-```md
-> :MetaOverride target=keywords, behavior=extend
->
-> additional, keywords, for this page
-```
-
-The behavior attribute's value can be either `replace` (default) or `extend`. In case of
-`replace`, if there is an existing meta tag with the same target (i.e. `name` attribute), then its
-content will be replaced by what you have provided. In case of `extend`, the content will be extended:
-
-- For `subject` and `description` targets, the override content will be concatenated to the original content
-  separated by a space.
-- For `keywords`, the array of new keywords will be concatenated with the array of original keywords, then all
-  of them will be joined with `,`.
-
----
-
-## Custom Meta Properties
-
-You can also use `property` instead of `target` to provide custom meta information for each page.
-For example you can supply custom information for representation of your page in social media cards
-like this:
-
-```md
-> :MetaOverride property=og:title
->
-> Title of the page on the social media cards
-
-> :MetaOverride property=og:image
->
-> An absolute URL for the social media cards
-```
-
-Additionally, you can provide custom values for `target` attribute as well, though
-you should not use `extend` behavior for such values (as **CODEDOC**'s best guess at how
-to extend such values might result in undesired content values).
-
-```md
-> :MetaOverride property=twitter:image
->
-> An absolute URL for the social media cards
-```
+Curabitur sit amet condimentum est. Etiam at ipsum ac libero sodales auctor. Nam ut est volutpat, condimentum velit nec, facilisis lacus. Morbi arcu felis, auctor sit amet pellentesque vel, fringilla a magna. Aliquam sit amet rutrum nisi. Mauris vitae erat a dui mattis hendrerit sit amet ut lorem. Integer sed sagittis lacus. Praesent nec venenatis justo. Aenean ornare pharetra ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris tincidunt felis lacus, eget efficitur dolor commodo vitae. Maecenas tincidunt ipsum a neque semper, sit amet consectetur erat varius. Fusce quis purus et justo ultricies finibus. Etiam mollis consectetur feugiat.
 
 > :ToCPrevNext

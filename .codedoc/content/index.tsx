@@ -41,7 +41,7 @@ h1 {
   font-size: 2.75em;
   margin-top: 5em;
   text-transform: uppercase;
-  letter-spacing: 0.75em;
+  letter-spacing: 0.5em;
   overflow-wrap: break-word;
 }
 

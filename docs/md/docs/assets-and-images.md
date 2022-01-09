@@ -1,110 +1,13 @@
 # Images and Assets
 
-You probably have some images, scripts, stylesheets, etc. to serve
-alongside your docs and want to use them inside your docs. Though specifics of how they are
-served is actually up to your hosting provider (for example GitHub Pages), **CODEDOC**
-comes with some utilities to make referencing your assets in your docs easier.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam purus neque, condimentum eget purus vel, pretium dignissim dolor. Sed quis suscipit nunc. Integer gravida accumsan nulla, ut accumsan quam. Proin vel nisi in libero dapibus suscipit quis in metus. Suspendisse sed tempus sapien. Sed ut augue non ante egestas consectetur. Maecenas sit amet tellus non dolor porta suscipit sit amet a velit. Nullam auctor dignissim arcu ac egestas. Etiam vitae ligula laoreet, aliquam lorem sed, sollicitudin leo. Etiam quis fringilla mi. Donec faucibus urna in magna maximus, et maximus lacus aliquam. Maecenas ullamcorper in leo sit amet lobortis. Nullam tincidunt aliquet bibendum. Ut finibus, felis eget faucibus convallis, dui lectus facilisis lorem, vel tincidunt diam sapien mollis ex. Pellentesque nec nulla erat.
 
-By default, **CODEDOC** assumes that your assets are to be served from the root of your
-project. This helps you access any static file you might have in your repository, and also
-keeps the local dev server in sync with how GitHub Pages behaves. So if you have the following
-files:
+Sed lobortis, nunc ac consectetur convallis, nisi libero vulputate tortor, in gravida erat odio vitae leo. Etiam auctor sem id odio ultrices tempor. Sed sagittis porttitor sagittis. Donec eget bibendum tellus, non facilisis nulla. Nunc at pretium turpis. Vivamus pretium pharetra ante in ultricies. Vestibulum suscipit nisi id augue dictum, a tempus elit pharetra.
 
-```bash
-my-project/.codedoc/...
-my-project/docs/md/index.md
-my-project/docs/md/whatever/stuff.md
-my-project/banner.svg
-my-project/images/funny.png
-```
+Donec ultrices lobortis sapien, nec elementum diam sagittis a. Maecenas quis velit consectetur, sodales tellus non, auctor ante. Phasellus a consectetur ante. Vivamus nisl nunc, lacinia id fringilla ut, interdum nec orci. Sed eu tellus placerat est pretium posuere at sed neque. Sed gravida pretium lacus, non cursus augue mollis sodales. Nulla facilisi. Fusce dapibus est vel tortor semper facilisis. Proin pulvinar vel mi non facilisis. Phasellus nec consectetur augue. Quisque ultricies ligula non odio mattis ultrices. Aliquam erat volutpat. Praesent sodales ex id enim facilisis posuere. Praesent tincidunt velit mauris. Maecenas non lorem efficitur, semper mauris at, imperdiet ex.
 
-You can use images in your docs like this:
+Nam dictum tellus et lacus congue, non elementum sem hendrerit. In efficitur diam at purus ornare, non tincidunt orci dictum. Vivamus tincidunt, ex a imperdiet elementum, velit libero mattis nulla, at vehicula lorem tellus ac sapien. Praesent felis diam, finibus a ex in, dictum tristique sem. Quisque egestas placerat semper. Fusce cursus cursus convallis. Aenean a suscipit magna. Vivamus convallis elementum ante, id posuere metus fermentum nec. Cras semper nulla id nulla tincidunt facilisis. Praesent sed ornare justo. Ut pellentesque nisi in mattis volutpat.
 
-```md | docs/md/index.md
-![Banner](/banner.svg)
-![Funny Image](/images/banner.svg)
-```
-
----
-
-## Project Namespace
-
-It is possible that your project won't be hosted on the root URL of your domain.
-For example, your domain might be `https://dude.cute.cloud`, but your docs are served on
-`https://dude.cute.cloud/my-project/`. This is for example the case if you are using
-GitHub Pages without using a custom domain, where your docs would be served on
-`https://<user>.github.io/<repo>`.
-
-**CODEDOC** abstracts away this concern for you, so that you **DO NOT NEED TO** change your
-URLs based on your hosting environment. You need to simply configure `.codedoc/config.ts` accordingly:
-
-```ts | .codedoc/config.ts
-// ...
-export const config = configuration({
-  // ...
-/*!*/  dest: {
-/*!*/    // ...
-/*!*/    namespace: '/my-project',
-/*!*/  },
-  // ...
-});
-```
-
-And keep using the URLs as if you do not have a namespace:
-
-```md | docs/md/index.md
-![Banner](/banner.svg)
-![Funny Image](/images/banner.svg)
-```
-
-<br>
-
-> [info](:Icon) **UNDER THE HOOD**
->
-> Codedoc basically automatically incorporates the project namespace into any link,
-> image source, script source or anchor element whose URL starts with `/`.
->
-> > :Buttons
-> > > :Button label=Learn More, url=/docs/config/output#project-namespace
-
----
-
-## Local Dev Server
-
-By default, the codedoc dev server (i.e. `codedoc serve`) serves all your assets from
-the root folder of your project. It will automatically add the project namespace to the
-static URLs and require it when serving the files to fully emulate the behaviour
-described above.
-
----
-
-## Custom Setup
-
-You can override the root folder of your assets via `.codedoc/config.ts`:
-
-```ts | .codedoc/config.ts
-// ...
-export const config = configuration({
-  // ...
-/*!*/  dest: {
-/*!*/    // ...
-/*!*/    assets: 'images',
-/*!*/  },
-  // ...
-});
-```
-
-With this configuration, the local dev server will now serve `my-project/images/funny.png`
-on `/funny.png` (or `/my-project/funny.png`, if you have a project namespace `/my-project`).
-Note that this **DOES NOT AFFECT YOUR HOSTING PROVIDER**, and you would need to modify your
-host configuration accordingly for the deployed version to work properly as well (configure it
-so that `funny.png` would be available on `/funny.png` when you do not have a namespace
-and `/my-project/funny.png` when you do).
-
-> [warning](:Icon) **ATTENTION** [warning](:Icon)
->
-> A custom setup as described above **DOES NOT WORK** on GitHub pages since there is no
-> way to configure GitHub Pages to serve your static assets on a different URL. _Only use this
-> when you have a custom host that have specific configuration requirements._
+Curabitur sit amet condimentum est. Etiam at ipsum ac libero sodales auctor. Nam ut est volutpat, condimentum velit nec, facilisis lacus. Morbi arcu felis, auctor sit amet pellentesque vel, fringilla a magna. Aliquam sit amet rutrum nisi. Mauris vitae erat a dui mattis hendrerit sit amet ut lorem. Integer sed sagittis lacus. Praesent nec venenatis justo. Aenean ornare pharetra ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris tincidunt felis lacus, eget efficitur dolor commodo vitae. Maecenas tincidunt ipsum a neque semper, sit amet consectetur erat varius. Fusce quis purus et justo ultricies finibus. Etiam mollis consectetur feugiat.
 
 > :ToCPrevNext

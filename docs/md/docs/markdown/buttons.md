@@ -1,112 +1,13 @@
 # Buttons
 
-You can add buttons to your markdown like this:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam purus neque, condimentum eget purus vel, pretium dignissim dolor. Sed quis suscipit nunc. Integer gravida accumsan nulla, ut accumsan quam. Proin vel nisi in libero dapibus suscipit quis in metus. Suspendisse sed tempus sapien. Sed ut augue non ante egestas consectetur. Maecenas sit amet tellus non dolor porta suscipit sit amet a velit. Nullam auctor dignissim arcu ac egestas. Etiam vitae ligula laoreet, aliquam lorem sed, sollicitudin leo. Etiam quis fringilla mi. Donec faucibus urna in magna maximus, et maximus lacus aliquam. Maecenas ullamcorper in leo sit amet lobortis. Nullam tincidunt aliquet bibendum. Ut finibus, felis eget faucibus convallis, dui lectus facilisis lorem, vel tincidunt diam sapien mollis ex. Pellentesque nec nulla erat.
 
-```md
-> :Buttons
-> > :Button label=GitHub, url=https://github.com
-```
+Sed lobortis, nunc ac consectetur convallis, nisi libero vulputate tortor, in gravida erat odio vitae leo. Etiam auctor sem id odio ultrices tempor. Sed sagittis porttitor sagittis. Donec eget bibendum tellus, non facilisis nulla. Nunc at pretium turpis. Vivamus pretium pharetra ante in ultricies. Vestibulum suscipit nisi id augue dictum, a tempus elit pharetra.
 
-> :Buttons
-> > :Button label=GitHub, url=https://github.com
+Donec ultrices lobortis sapien, nec elementum diam sagittis a. Maecenas quis velit consectetur, sodales tellus non, auctor ante. Phasellus a consectetur ante. Vivamus nisl nunc, lacinia id fringilla ut, interdum nec orci. Sed eu tellus placerat est pretium posuere at sed neque. Sed gravida pretium lacus, non cursus augue mollis sodales. Nulla facilisi. Fusce dapibus est vel tortor semper facilisis. Proin pulvinar vel mi non facilisis. Phasellus nec consectetur augue. Quisque ultricies ligula non odio mattis ultrices. Aliquam erat volutpat. Praesent sodales ex id enim facilisis posuere. Praesent tincidunt velit mauris. Maecenas non lorem efficitur, semper mauris at, imperdiet ex.
 
-You can have multiple buttons in a row:
+Nam dictum tellus et lacus congue, non elementum sem hendrerit. In efficitur diam at purus ornare, non tincidunt orci dictum. Vivamus tincidunt, ex a imperdiet elementum, velit libero mattis nulla, at vehicula lorem tellus ac sapien. Praesent felis diam, finibus a ex in, dictum tristique sem. Quisque egestas placerat semper. Fusce cursus cursus convallis. Aenean a suscipit magna. Vivamus convallis elementum ante, id posuere metus fermentum nec. Cras semper nulla id nulla tincidunt facilisis. Praesent sed ornare justo. Ut pellentesque nisi in mattis volutpat.
 
-```md
-> :Buttons
-> > :Button label=GitHub, url=https://github.com
->
-> > :Button label=NPM, url=https://npmjs.org
-```
-
-> :Buttons
-> > :Button label=GitHub, url=https://github.com
->
-> > :Button label=NPM, url=https://npmjs.org
-
----
-
-## Icon Buttons
-
-You can have icons on your buttons:
-
-```md
-> :Buttons
-> > :Button icon=true, label=code, url=https://github.com
->
-> > :Button label=NPM, url=https://npmjs.org
-```
-
-> :Buttons
-> > :Button icon=true, label=code, url=https://github.com
->
-> > :Button label=NPM, url=https://npmjs.org
-
-<br>
-
-The icons are read from the configured icon-font, which is by default
-[Material Icons](https://material.io/resources/icons/). You can override
-this in `.codedoc/config.ts` as well.
-
-> :Buttons
-> > :Button label=Learn More about Custom Icon Font, url=/docs/config/page#icon-font
-
----
-
-## Copy Button
-
-
-There is a special `CopyButton` component, that when placed after a code snippet, will copy
-the whole contents of the code snippet:
-
-```md
-> :Buttons
-> > :CopyButton
-```
-
-> :Buttons
-> > :CopyButton
-
-The copy button by default reads the value `filter_none` from the icon-font. If you
-want to use a custom icon-font, you should either make sure that it has a `filter_none` icon
-that looks like a copy icon, or that you provide your own custom `CopyButton` component:
-
-> :Tabs
-> > :Tab title=component code
-> > ```tsx | .codedoc/components/copy-button.tsx
-> > import { RendererLike } from '@connectv/html';
-> > import { Button } from '@codedoc/core/components';
-> >
-> >
-> > export function CopyButton(_: any, renderer: RendererLike<any, any>) {
-> >   return <Button icon='true' onclick='smartCopy(this)' label='icon-copy'/>;
-> >}
-> >```
-> > > :Buttons
-> > > > :CopyButton
->
-> > :Tab title=config
-> > ```ts | .codedoc/config.ts
-> >import { configuration, DefaultMarkdownCustomComponents } from '@codedoc/core';
-> >
-> >import { theme } from './theme';
-> >import { CopyButton } from './components/copy-button';
-> >
-> >
-> >export const config = /*#__PURE__*/configuration({
-> >  // ...
-> >/*!*/  markdown: {
-> >/*!*/    customComponents: {
-> >/*!*/      ...DefaultMarkdownCustomComponents,
-> >/*!*/      CopyButton,
-> >/*!*/    }
-> >/*!*/  },
-> >  // ...
-> >});
-> >```
-> > > :Buttons
-> > > > :CopyButton
-
-[Read here](/docs/markdown/overview/#custom-components) for more details on creating custom markdown components in codedoc.
+Curabitur sit amet condimentum est. Etiam at ipsum ac libero sodales auctor. Nam ut est volutpat, condimentum velit nec, facilisis lacus. Morbi arcu felis, auctor sit amet pellentesque vel, fringilla a magna. Aliquam sit amet rutrum nisi. Mauris vitae erat a dui mattis hendrerit sit amet ut lorem. Integer sed sagittis lacus. Praesent nec venenatis justo. Aenean ornare pharetra ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris tincidunt felis lacus, eget efficitur dolor commodo vitae. Maecenas tincidunt ipsum a neque semper, sit amet consectetur erat varius. Fusce quis purus et justo ultricies finibus. Etiam mollis consectetur feugiat.
 
 > :ToCPrevNext

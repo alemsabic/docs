@@ -1,87 +1,13 @@
 # Footnotes
 
-You use `Footnote` component to inject some notes which are expanded upon later, i.e. footnotes:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam purus neque, condimentum eget purus vel, pretium dignissim dolor. Sed quis suscipit nunc. Integer gravida accumsan nulla, ut accumsan quam. Proin vel nisi in libero dapibus suscipit quis in metus. Suspendisse sed tempus sapien. Sed ut augue non ante egestas consectetur. Maecenas sit amet tellus non dolor porta suscipit sit amet a velit. Nullam auctor dignissim arcu ac egestas. Etiam vitae ligula laoreet, aliquam lorem sed, sollicitudin leo. Etiam quis fringilla mi. Donec faucibus urna in magna maximus, et maximus lacus aliquam. Maecenas ullamcorper in leo sit amet lobortis. Nullam tincidunt aliquet bibendum. Ut finibus, felis eget faucibus convallis, dui lectus facilisis lorem, vel tincidunt diam sapien mollis ex. Pellentesque nec nulla erat.
 
-```md
-**HTML**
+Sed lobortis, nunc ac consectetur convallis, nisi libero vulputate tortor, in gravida erat odio vitae leo. Etiam auctor sem id odio ultrices tempor. Sed sagittis porttitor sagittis. Donec eget bibendum tellus, non facilisis nulla. Nunc at pretium turpis. Vivamus pretium pharetra ante in ultricies. Vestibulum suscipit nisi id augue dictum, a tempus elit pharetra.
 
-HTML, the predominant markup language for web pages, has no mechanism for marking up notes. Despite a number of different proposals over the years, 
-and repeated pleas from the user base, the working group has been unable to reach a consensus on it. Because of this, MediaWiki, for example, 
-has had to introduce its own <ref></ref> tag for citing references in notes, an idea which has since also been implemented for generic use 
-/*!*/by the Nelson HTML preprocessor.["Nelson HTML Preprocessor". Retrieved 2009-06-09.](:Footnote)
+Donec ultrices lobortis sapien, nec elementum diam sagittis a. Maecenas quis velit consectetur, sodales tellus non, auctor ante. Phasellus a consectetur ante. Vivamus nisl nunc, lacinia id fringilla ut, interdum nec orci. Sed eu tellus placerat est pretium posuere at sed neque. Sed gravida pretium lacus, non cursus augue mollis sodales. Nulla facilisi. Fusce dapibus est vel tortor semper facilisis. Proin pulvinar vel mi non facilisis. Phasellus nec consectetur augue. Quisque ultricies ligula non odio mattis ultrices. Aliquam erat volutpat. Praesent sodales ex id enim facilisis posuere. Praesent tincidunt velit mauris. Maecenas non lorem efficitur, semper mauris at, imperdiet ex.
 
-It might be argued that the hyperlink partially eliminates the need for notes, being the web's way to refer to another document. However, it 
-does not allow citing to offline sources and if the destination of the link changes, the link can become dead 
-/*!*/or irrelevant.[Jill Lepore. "The Cobweb", The New Yorker, 26 January 2015 issue. Retrieved 25 January 2015. Archived from the original.](:Footnote) 
-A proposed solution is the use of a digital object identifier.
+Nam dictum tellus et lacus congue, non elementum sem hendrerit. In efficitur diam at purus ornare, non tincidunt orci dictum. Vivamus tincidunt, ex a imperdiet elementum, velit libero mattis nulla, at vehicula lorem tellus ac sapien. Praesent felis diam, finibus a ex in, dictum tristique sem. Quisque egestas placerat semper. Fusce cursus cursus convallis. Aenean a suscipit magna. Vivamus convallis elementum ante, id posuere metus fermentum nec. Cras semper nulla id nulla tincidunt facilisis. Praesent sed ornare justo. Ut pellentesque nisi in mattis volutpat.
 
-<br><br>
-
-/*!*/> :Footnotes
-```
-
-> **HTML**
->
-> HTML, the predominant markup language for web pages, has no mechanism for marking up notes. Despite a number of different proposals over the years, and repeated pleas from the user base, the working group has been unable to reach a consensus on it. Because of this, MediaWiki, for example, has had to introduce its own <ref></ref> tag for citing references in notes, an idea which has since also been implemented for generic use by the Nelson HTML preprocessor.["Nelson HTML Preprocessor". Retrieved 2009-06-09.](:Footnote)
->
-> It might be argued that the hyperlink partially eliminates the need for notes, being the web's way to refer to another document. However, it does not allow citing to offline sources and if the destination of the link changes, the link can become dead or irrelevant.[Jill Lepore. "The Cobweb", The New Yorker, 26 January 2015 issue. Retrieved 25 January 2015. Archived from the original.](:Footnote) A proposed solution is the use of a digital object identifier.
-> 
-> <br><br>
->
-> > :Footnotes
-
-<br>
-
-Footnotes are marked in the text using the `Footnote` component. Then, they are displayed together where the next `Footnotes` component
-appears. This also means that you can have multiple footnote sections. In that case, the indexing of the notes will keep increasing,
-but each footnote will only appear as part of the next `Footnotes` section after it.
-
----
-
-## Shared References
-
-Multiple parts of the text can reference the same footnote. For that, the footnote must be given an id, and subsequent
-references to this footnote can only reference the id without providing additional content:
-
-```md
-So this[Only one note](:Footnote (id=X)) and this[](:Footnote (id=X)) will reference the same thing.
-
-> :Footnotes
-```
-
-> So this[Only one note](:Footnote (id=X)) and this[](:Footnote (id=X)) will reference the same thing.
->
-> > :Footnotes
-
----
-
-## Rich Text Content
-
-If you want to have rich content as part of a footnote, you can use the quoted version of the `Footnote`
-component to outline your content, and then refer to it using an id:
-
-```md
-So this[](:Footnote (id=Y)) will reference a note with more involved text.
-
-> :Footnote id=Y
->
-> So in this note we can have stuff:
-> - Such as lists
-> - Or **styled** text
-> - Or any other markdown basically
-
-> :Footnotes
-```
-
-So this[](:Footnote (id=Y)) will reference a note with more involved text.
-
-> :Footnote id=Y
->
-> So in this note we can have stuff:
-> - Such as lists
-> - Or **styled** text
-> - Or any other markdown basically
-
-> :Footnotes
+Curabitur sit amet condimentum est. Etiam at ipsum ac libero sodales auctor. Nam ut est volutpat, condimentum velit nec, facilisis lacus. Morbi arcu felis, auctor sit amet pellentesque vel, fringilla a magna. Aliquam sit amet rutrum nisi. Mauris vitae erat a dui mattis hendrerit sit amet ut lorem. Integer sed sagittis lacus. Praesent nec venenatis justo. Aenean ornare pharetra ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris tincidunt felis lacus, eget efficitur dolor commodo vitae. Maecenas tincidunt ipsum a neque semper, sit amet consectetur erat varius. Fusce quis purus et justo ultricies finibus. Etiam mollis consectetur feugiat.
 
 > :ToCPrevNext
