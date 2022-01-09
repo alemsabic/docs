@@ -2,12 +2,6 @@
 # Ne kontam
 
 Samo testiranje, nista vise.
-Assume you have a repo on github named `my-project` and want to write documentations for it
-using codedoc. Install the codedoc cli, clone your repo locally, then. Open a browser on the URL the CLI tool tells you (e.g. `localhost:3000/my-project`) and
-see the docs boilerplate.
-
-Your markdown files by default are located at `docs/md/`, for example the main page you see
-will be from `docs/md/index.md`. The table of contents will also by default be on `docs/md/_toc.md`.
 Modify them and see the changes in realtime.
 
 
@@ -64,20 +58,10 @@ half-baked weird visual interfaces on top!
 
 
 
-## Open-Source
+## Open-Sources
 
 Codedoc is an open-source tool, completely free-to-use, MIT-licensed,
 no strings attached. I simply needed this tool to write usable docs for some
 open-source projects I was working on.
 
-
 > :ToCPrevNext
-
-> :DarkLight
-> > :InLight
-> >
-> > > :Utterances theme=github-light
->
-> > :InDark
-> >
-> > > :Utterances theme=github-dark

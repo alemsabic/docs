@@ -4,7 +4,6 @@ import { configuration,
 } from '@codedoc/core';
 
 import { theme } from './theme';
-import { Utterances } from './components/utterances';
 import { Card } from './components/card';
 import { codingBlog } from '@codedoc/coding-blog-plugin';  // --> import the plugin
 
@@ -52,7 +51,7 @@ export const config = /*#__PURE__*/configuration({
     customComponents: {
       ...DefaultMarkdownCustomComponents,
       Card,
-      Utterances,
+
     }
   }
 });
