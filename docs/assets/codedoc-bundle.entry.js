@@ -1,34 +1,32 @@
-import { getRenderer } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/transport/renderer.js';
-import { initJssCs } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/transport/setup-jss.js';initJssCs();
-import { installTheme } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/content/theme.ts';installTheme();
-import { countCards } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/count-cards.js';countCards();
-import { codeSelection } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/selection.js';codeSelection();
-import { sameLineLengthInCodes } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/same-line-length.js';sameLineLengthInCodes();
-import { initHintBox } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-hint/index.js';initHintBox();
-import { initCodeLineRef } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-ref/index.js';initCodeLineRef();
-import { initSmartCopy } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/smart-copy.js';initSmartCopy();
-import { copyHeadings } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/heading/copy-headings.js';copyHeadings();
-import { contentNavHighlight } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/contentnav/highlight.js';contentNavHighlight();
-import { loadDeferredIFrames } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/transport/deferred-iframe.js';loadDeferredIFrames();
-import { smoothLoading } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/transport/smooth-loading.js';smoothLoading();
-import { tocHighlight } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toc-highlight.js';tocHighlight();
-import { postNavSearch } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js';postNavSearch();
-import { copyLineLinks } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js';copyLineLinks();
-import { gatherFootnotes } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js';gatherFootnotes();
-import { CollapseControl } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js';
-import { ToCToggle } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
-import { DarkModeSwitch } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
-import { ConfigTransport } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
-import { ToCPrevNext } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
-import { TabSelector } from '/home/runner/work/codedoc-docs/codedoc-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js';
+import { getRenderer } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/transport/renderer.js';
+import { initJssCs } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/transport/setup-jss.js';initJssCs();
+import { installTheme } from '/home/runner/work/docs/docs/.codedoc/content/theme.ts';installTheme();
+import { countCards } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/count-cards.js';countCards();
+import { codeSelection } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/selection.js';codeSelection();
+import { sameLineLengthInCodes } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/same-line-length.js';sameLineLengthInCodes();
+import { initHintBox } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-hint/index.js';initHintBox();
+import { initCodeLineRef } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-ref/index.js';initCodeLineRef();
+import { initSmartCopy } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/smart-copy.js';initSmartCopy();
+import { copyHeadings } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/heading/copy-headings.js';copyHeadings();
+import { contentNavHighlight } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/contentnav/highlight.js';contentNavHighlight();
+import { loadDeferredIFrames } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/transport/deferred-iframe.js';loadDeferredIFrames();
+import { smoothLoading } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/transport/smooth-loading.js';smoothLoading();
+import { tocHighlight } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toc-highlight.js';tocHighlight();
+import { postNavSearch } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js';postNavSearch();
+import { copyLineLinks } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js';copyLineLinks();
+import { gatherFootnotes } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js';gatherFootnotes();
+import { CollapseControl } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js';
+import { ToCToggle } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
+import { DarkModeSwitch } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
+import { ConfigTransport } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
+import { ToCPrevNext } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
 
 const components = {
-  'xvMl3/BzEiLLpbeHg4MJIw==': CollapseControl,
-  'ImhB47txCQ0DSQNMAg4ZBw==': ToCToggle,
-  '2QjAvZcwowE7/w7gzBp58A==': DarkModeSwitch,
-  'BE2VSed0IQfDIfXpZUshfA==': ConfigTransport,
-  'xCBcG0xnbau+cXDs8aAZEg==': ToCPrevNext,
-  'WYHVSHXUz4Ll98v5oPmSng==': TabSelector
+  'MG7C/bDkckf95whKGXOINA==': CollapseControl,
+  'x7C0LCI6paKTeYeOkoEYMQ==': ToCToggle,
+  'ydOT30OH8OhdZRvGCPz8BQ==': DarkModeSwitch,
+  'kL9atIC7mpqcSjBja2l5iw==': ConfigTransport,
+  'h7smMF/VsWVW7P5N7MOSNA==': ToCPrevNext
 };
 
 const renderer = getRenderer();
