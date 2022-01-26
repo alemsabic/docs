@@ -1,21 +1,8 @@
 
-# Vozdra, raja!
-
-Samo testiranje, nista vise.
-Modify them and see the changes in realtime.
-
-
-## Publishing
-
-When you are done with your docs and want to publish them, say to GitHub Pages, simply
-run this command in your project folder:
-
-
-
 # Features
 
 This very documentation was created using codedoc, so basically every feature you see here you would
-get for your own documentation. Check out [this repository](https://github.com/CONNECT-platform/codedoc-docs)
+get for your own **documentation**. Check out [this repository](https://github.com/CONNECT-platform/codedoc-docs)
 to see how exactly these documentations were created using codedoc.
 
 
@@ -65,3 +52,12 @@ no strings attached. I simply needed this tool to write usable docs for some
 open-source projects I was working on.
 
 > :ToCPrevNext
+
+> :DarkLight
+> > :InLight
+> >
+> > > :Utterances theme=github-light
+>
+> > :InDark
+> >
+> > > :Utterances theme=github-dark

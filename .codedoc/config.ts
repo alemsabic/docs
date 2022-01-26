@@ -5,6 +5,7 @@ import { configuration,
 
 import { theme } from './theme';
 import { Card } from './components/card';
+import { Utterances } from './components/utterances';
 import { codingBlog } from '@codedoc/coding-blog-plugin';  // --> import the plugin
 
 
@@ -36,10 +37,10 @@ export const config = /*#__PURE__*/configuration({
     fonts: {                             // --> font settings
       text: {                            // --> font used for texts
         url:                             // --> URL of font used for texts
-          'https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap',
-        name: 'Roboto Mono',                    // --> name of font used for texts
+          'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap',
+        name: 'Inter',                    // --> name of font used for texts
         fallback: 
-        `'Courier New', Courier, monospace`           // --> the fallback font for texts
+        `sans-serif`           // --> the fallback font for texts
       },
     }, 
   },
@@ -51,6 +52,7 @@ export const config = /*#__PURE__*/configuration({
     customComponents: {
       ...DefaultMarkdownCustomComponents,
       Card,
+      Utterances,
 
     }
   }
