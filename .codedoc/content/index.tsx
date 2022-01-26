@@ -41,13 +41,11 @@ h1 {
   font-size: 2.5em;
   margin-top: 3em;
   letter-spacing: 2px;
-  font-weight: 700;
 }
 
 h2, h3 {
   line-height:1.3;
   margin-top: 2.5em;
-  font-weight:600;
 }
 
 #-codedoc-container p {
@@ -56,7 +54,7 @@ h2, h3 {
 
 @media only screen and (min-width: 768px) {
   body, input, button {
-    font-size:18px;
+    font-size:20px;
 }
 }
 
@@ -81,6 +79,11 @@ body::before {
     width: 0 !important;
     display: none; 
   }
+
+body.dark { 
+font-weight: 300;
+}
+
 
 `}
 </style>

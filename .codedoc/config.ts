@@ -37,7 +37,7 @@ export const config = /*#__PURE__*/configuration({
     fonts: {                             // --> font settings
       text: {                            // --> font used for texts
         url:                             // --> URL of font used for texts
-          'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap',
+          'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap',
         name: 'Inter',                    // --> name of font used for texts
         fallback: 
         `sans-serif`           // --> the fallback font for texts
