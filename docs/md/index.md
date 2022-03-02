@@ -1,7 +1,7 @@
 
 # Features
 
-This very documentation was created using codedoc, so basically every feature you see here you would
+This very _documentation_ was created using codedoc, so basically every feature you see here you would
 get for your own **documentation**. Check out [this repository](https://github.com/CONNECT-platform/codedoc-docs)
 to see how exactly these documentations were created using codedoc.
 
