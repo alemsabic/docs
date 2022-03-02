@@ -15,14 +15,12 @@ import { tocHighlight } from '/home/runner/work/docs/docs/.codedoc/node_modules/
 import { postNavSearch } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js';postNavSearch();
 import { copyLineLinks } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js';copyLineLinks();
 import { gatherFootnotes } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js';gatherFootnotes();
-import { CollapseControl } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js';
 import { ToCToggle } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
 import { ToCPrevNext } from '/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
 
 const components = {
-  'MG7C/bDkckf95whKGXOINA==': CollapseControl,
   'x7C0LCI6paKTeYeOkoEYMQ==': ToCToggle,
   'ydOT30OH8OhdZRvGCPz8BQ==': DarkModeSwitch,
   'kL9atIC7mpqcSjBja2l5iw==': ConfigTransport,

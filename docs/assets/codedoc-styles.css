@@ -103,62 +103,7 @@ a.button-0-0-3.icon {
   width: 36px;
   height: 36px;
 }
-  .collapse-0-0-4>.label {
-    cursor: pointer;
-    margin: 8px 0;
-    display: flex;
-    align-items: center;
-    user-select: none;
-  }
-  .collapse-0-0-4>.content {
-    opacity: 0;
-    max-height: 0;
-    transition: opacity .3s;
-    visibility: hidden;
-    border-left: 2px solid rgba(0, 0, 0, 0.5);
-    padding-left: 16px;
-  }
-  .collapse-0-0-4.open>.content {
-    opacity: 1;
-    max-height: none;
-    visibility: visible;
-  }
-  .collapse-0-0-4.open>.label .icon-font {
-    transform: rotate(90deg);
-  }
-  body.dark-mode-animate .collapse-0-0-4>.content {
-    transition: transform .15s, opacity .15s, border-color .3s;
-  }
-  body.dark .collapse-0-0-4>.content {
-    border-color: rgba(255, 255, 255, 0.5);
-  }
-@media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .collapse-0-0-4>.content {
-    border-color: rgba(255, 255, 255, 0.5);
-  }
-}
-  .collapse-0-0-4>.label .text {
-    flex-grow: 1;
-  }
-  .collapse-0-0-4>.label .icon-font {
-    margin-right: 32px;
-  }
-  .collapse-0-0-4>.label:hover {
-    color: rgba(0,0,0,0.85);
-    transition: color .15s;
-  }
-  body.dark .collapse-0-0-4>.label:hover {
-    color: rgba(255,255,255,0.85);
-  }
-@media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .collapse-0-0-4>.label:hover {
-    color: rgba(255,255,255,0.85);
-  }
-}
-  body.dark-mode-animate .collapse-0-0-4>.label .icon-font {
-    transition: transform .15s;
-  }
-  .header-0-0-5 {
+  .header-0-0-4 {
     top: 0;
     right: 0;
     padding: 32px;
@@ -166,7 +111,7 @@ a.button-0-0-3.icon {
     position: fixed;
     text-align: right;
   }
-  .footer-0-0-6 {
+  .footer-0-0-5 {
     left: 0;
     right: 0;
     bottom: 0;
@@ -181,67 +126,67 @@ a.button-0-0-3.icon {
     justify-content: center;
     -webkit-backdrop-filter: blur(12px);
   }
-  body.dark-mode-animate .footer-0-0-6 {
+  body.dark-mode-animate .footer-0-0-5 {
     transition: background .3s;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .footer-0-0-6 {
+  body:not(.dark-mode-animate) .footer-0-0-5 {
     background: rgba(24, 24, 24, 0.85);
   }
 }
-  body.dark .footer-0-0-6 {
+  body.dark .footer-0-0-5 {
     background: rgba(24, 24, 24, 0.85);
   }
-  .footer-0-0-6 .main {
+  .footer-0-0-5 .main {
     overflow: hidden;
     flex-grow: 1;
     text-align: center;
   }
-  .footer-0-0-6 .left {
+  .footer-0-0-5 .left {
     padding-left: 32px;
   }
-  .footer-0-0-6 .right {
+  .footer-0-0-5 .right {
     padding-right: 32px;
   }
 @media screen and (max-width: 800px) {
-  .footer-0-0-6 .left {
+  .footer-0-0-5 .left {
     padding-left: 16px;
   }
-  .footer-0-0-6 .right {
+  .footer-0-0-5 .right {
     padding-right: 16px;
   }
 }
-  .footer-0-0-6 .main>.inside {
+  .footer-0-0-5 .main>.inside {
     display: inline-flex;
     overflow: auto;
     max-width: 100%;
     align-items: center;
   }
-  .footer-0-0-6 .main>.inside hr {
+  .footer-0-0-5 .main>.inside hr {
     width: 2px;
     border: none;
     height: 16px;
     margin: 16px;
     background: rgba(0,0,0,0.1);
   }
-  .footer-0-0-6 .main>.inside a {
+  .footer-0-0-5 .main>.inside a {
     text-decoration: none;
   }
-  .footer-0-0-6 .main>.inside a:hover {
+  .footer-0-0-5 .main>.inside a:hover {
     text-decoration: underline ;
   }
-  body.dark-mode-animate .footer-0-0-6 .main>.inside hr {
+  body.dark-mode-animate .footer-0-0-5 .main>.inside hr {
     transition: background .3s;
   }
-  body.dark .footer-0-0-6 .main>.inside hr {
+  body.dark .footer-0-0-5 .main>.inside hr {
     background: rgba(255,255,255,0.1);
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .footer-0-0-6 .main>.inside hr {
+  body:not(.dark-mode-animate) .footer-0-0-5 .main>.inside hr {
     background: rgba(255,255,255,0.1);
   }
 }
-  .toc-0-0-7 {
+  .toc-0-0-6 {
     top: 0;
     left: 0;
     width: calc(50vw - 464px);
@@ -255,35 +200,35 @@ a.button-0-0-3.icon {
     flex-direction: column;
     padding-bottom: 64px;
   }
-  body.dark-mode-animate .toc-0-0-7 {
+  body.dark-mode-animate .toc-0-0-6 {
     transition: background .3s, border-color .3s;
   }
-  body.dark .toc-0-0-7 {
+  body.dark .toc-0-0-6 {
     background: rgba(32,32,32,0.75);
     border-color: rgba(255,255,255,0.05);
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .toc-0-0-7 {
+  body:not(.dark-mode-animate) .toc-0-0-6 {
     background: rgba(32,32,32,0.75);
     border-color: rgba(255,255,255,0.05);
   }
 }
 @media screen and (max-width: 1200px) {
-  .toc-0-0-7 {
+  .toc-0-0-6 {
     width: 100vw;
     transform: translateX(-110vw);
   }
 }
-  .toc-0-0-7.animated {
+  .toc-0-0-6.animated {
     transition: transform .3s;
   }
-  .toc-0-0-7.active {
+  .toc-0-0-6.active {
     transform: translateX(0);
   }
-  .toc-0-0-7 p {
+  .toc-0-0-6 p {
     margin: 0;
   }
-  .toc-0-0-7 a {
+  .toc-0-0-6 a {
     border: 1px solid transparent;
     display: block;
     padding: 8px;
@@ -293,49 +238,49 @@ a.button-0-0-3.icon {
     border-radius: 3px;
     text-decoration: none;
   }
-  body.dark-mode-animate .toc-0-0-7 a {
+  body.dark-mode-animate .toc-0-0-6 a {
     transition: border-color .3s, background .3s;
   }
-  .toc-0-0-7 a:hover {
+  .toc-0-0-6 a:hover {
     background: rgba(255,255,255);
     text-decoration: none;
   }
-  .toc-0-0-7 a.current {
+  .toc-0-0-6 a.current {
     background: rgba(255,255,255);
     border-color: rgba(0,0,0,0.05);
     margin-right: 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
-  body.dark .toc-0-0-7 a.current {
+  body.dark .toc-0-0-6 a.current {
     background: hsl(0, 0%, 9.6%);
     border-color: rgba(255,255,255,0.05);
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .toc-0-0-7 a.current {
+  body:not(.dark-mode-animate) .toc-0-0-6 a.current {
     background: rgba(24,24,24);
     border-color: rgba(255,255,255,0.05);
   }
 }
 @media screen and (max-width: 1200px) {
-  .toc-0-0-7 a.current {
+  .toc-0-0-6 a.current {
     border-right: 1px solid;
     margin-right: -8px;
     border-radius: 3px;
   }
 }
-  body.dark .toc-0-0-7 a:hover {
+  body.dark .toc-0-0-6 a:hover {
     background: hsl(0, 0%, 9.6%);
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .toc-0-0-7 a:hover {
+  body:not(.dark-mode-animate) .toc-0-0-6 a:hover {
     background: hsl(0, 0%, 9.6%);
   }
 }
-  body.dark-mode-animate .toc-0-0-7.animated {
+  body.dark-mode-animate .toc-0-0-6.animated {
     transition: transform .3s, background .3s, border-color .3s;
   }
-  .content-0-0-8 {
+  .content-0-0-7 {
     padding: 32px;
     overflow: auto;
     flex-grow: 1;
@@ -343,12 +288,12 @@ a.button-0-0-3.icon {
     padding-right: 0;
   }
 @media screen and (max-width: 1200px) {
-  .content-0-0-8 {
+  .content-0-0-7 {
     margin-right: 0;
     padding-right: 32px;
   }
 }
-  .contentnav-0-0-10 {
+  .contentnav-0-0-9 {
     right: 0;
     width: calc(50vw - 496px);
     bottom: 96px;
@@ -362,56 +307,56 @@ a.button-0-0-3.icon {
     scroll-behavior: initial;
   }
 @media screen and (max-width: 1200px) {
-  .contentnav-0-0-10 {
+  .contentnav-0-0-9 {
     display: none;
   }
 }
-  .contentnav-0-0-10 a {
+  .contentnav-0-0-9 a {
     color: #424242;
     display: block;
     opacity: 0.2;
     text-decoration: none;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .contentnav-0-0-10 {
+  body:not(.dark-mode-animate) .contentnav-0-0-9 {
     border-color: rgba(255,255,255,0.1);
   }
-  body:not(.dark-mode-animate) .contentnav-0-0-10 a {
+  body:not(.dark-mode-animate) .contentnav-0-0-9 a {
     color: #eeeeee;
   }
-  body:not(.dark-mode-animate) .contentnav-0-0-10 a:hover, body:not(.dark-mode-animate) .contentnav-0-0-10 a.active {
+  body:not(.dark-mode-animate) .contentnav-0-0-9 a:hover, body:not(.dark-mode-animate) .contentnav-0-0-9 a.active {
     color: rgba(255,255,255,0.85);
   }
 }
-  body.dark .contentnav-0-0-10 {
+  body.dark .contentnav-0-0-9 {
     border-color: rgba(255,255,255,0.1);
   }
-  body.dark .contentnav-0-0-10 a {
+  body.dark .contentnav-0-0-9 a {
     color: #eeeeee;
   }
-  body.dark .contentnav-0-0-10 a:hover, body.dark .contentnav-0-0-10 a.active {
+  body.dark .contentnav-0-0-9 a:hover, body.dark .contentnav-0-0-9 a.active {
     color: rgba(255,255,255,0.85);
   }
-  body.dark-mode-animate .contentnav-0-0-10 a {
+  body.dark-mode-animate .contentnav-0-0-9 a {
     transition: color .3s, opacity .3s;
   }
-  .contentnav-0-0-10 a:hover, .contentnav-0-0-10 a.active {
+  .contentnav-0-0-9 a:hover, .contentnav-0-0-9 a.active {
     color: rgba(0,0,0,0.85);
     opacity: 1;
   }
-  .contentnav-0-0-10 a.h2 {
+  .contentnav-0-0-9 a.h2 {
     margin-left: 12px;
   }
-  .contentnav-0-0-10 a.h3 {
+  .contentnav-0-0-9 a.h3 {
     margin-left: 24px;
   }
-  .contentnav-0-0-10 a.h4 {
+  .contentnav-0-0-9 a.h4 {
     margin-left: 36px;
   }
-  .contentnav-0-0-10 a.h5 {
+  .contentnav-0-0-9 a.h5 {
     margin-left: 48px;
   }
-  .contentnav-0-0-10 a.h6 {
+  .contentnav-0-0-9 a.h6 {
     margin-left: 60px;
   }
 * {
@@ -612,17 +557,17 @@ body.dark code {
     background: #282828;
   }
 }
-  .utterancesTransparentIframe-0-0-11 iframe.utterances-frame {
+  .utterancesTransparentIframe-0-0-10 iframe.utterances-frame {
     background: transparent;
   }
-  .darklight-0-0-12 {
+  .darklight-0-0-11 {
     overflow: hidden;
     position: relative;
   }
-  body.dark-mode-animate .darklight-0-0-12>.light, .darklight-0-0-12>.dark {
+  body.dark-mode-animate .darklight-0-0-11>.light, .darklight-0-0-11>.dark {
     transition: opacity .3s, z-index .3s;
   }
-  .darklight-0-0-12>.dark {
+  .darklight-0-0-11>.dark {
     top: 0;
     left: 0;
     right: 0;
@@ -630,21 +575,21 @@ body.dark code {
     z-index: -1;
     position: absolute;
   }
-  body.dark .darklight-0-0-12>.dark {
+  body.dark .darklight-0-0-11>.dark {
     opacity: 1;
     z-index: 1;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .darklight-0-0-12>.dark {
+  body:not(.dark-mode-animate) .darklight-0-0-11>.dark {
     opacity: 1;
     z-index: 1;
   }
 }
-  body.dark .darklight-0-0-12>.light {
+  body.dark .darklight-0-0-11>.light {
     opacity: 0;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .darklight-0-0-12>.light {
+  body:not(.dark-mode-animate) .darklight-0-0-11>.light {
     opacity: 0;
   }
 }

@@ -83,11 +83,6 @@
   ],
   "components": [
     {
-      "name": "CollapseControl",
-      "filename": "/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js",
-      "hash": "MG7C/bDkckf95whKGXOINA=="
-    },
-    {
       "name": "ToCToggle",
       "filename": "/home/runner/work/docs/docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
       "hash": "x7C0LCI6paKTeYeOkoEYMQ=="
